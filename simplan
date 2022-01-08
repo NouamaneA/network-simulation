@@ -1,0 +1,23 @@
+./simulation --percentCBR=0.25 --b=3 --simDuration=30 > res3
+cat res3 > res
+
+./simulation --percentCBR=0.25 --b=4 --simDuration=60 > res4
+cat res4 >> res
+
+./simulation --percentCBR=0.50 --b=5 --simDuration=60 > res5
+cat res5 >> res
+
+./simulation --percentCBR=0.50 --b=6 --simDuration=60 > res6
+cat res6 >> res
+
+./simulation --percentCBR=0.50 --b=7 --simDuration=60 > res7
+cat res7 >> res
+
+./simulation --percentCBR=0.75 --b=8 --simDuration=60 > res8
+cat res8 >> res
+
+./simulation --percentCBR=0.75 --b=9 --simDuration=30 > res9
+cat res9 >> res
+
+./simulation --percentCBR=0.75 --b=10 --simDuration=30 > res10
+cat res10 >> res
